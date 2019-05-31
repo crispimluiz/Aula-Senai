@@ -1,6 +1,6 @@
 package com.crispimluiz.senai.abstrata;
 
-public class Abstracao2 {
+public class Abstracao2 extends Abstracao{
 	private static double valor;
 	private static double porcentagemValor;
 	
@@ -32,5 +32,11 @@ public class Abstracao2 {
 
 	public void setPorcentagemValor(float porcentagemValor) {
 		Abstracao2.porcentagemValor = porcentagemValor;
+	}
+
+	@Override
+	public double getPorcentagem() {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 }
