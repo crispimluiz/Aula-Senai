@@ -3,7 +3,7 @@ package com.crispimluiz.senai.abstrata;
 public class Abstracao2 extends Abstracao{
 	private static double valor;
 	private static double porcentagemValor;
-	
+	//teste
 	public double getPorcentagem(double valor, double porcentagemValor) {
 		double resultado;
 		resultado = ((valor * porcentagemValor)/100);
